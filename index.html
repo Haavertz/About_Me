@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
 </head>
 <body>
+    <audio autoplay loop>
+        <source id="MeuAudio" src="sound/lo_fi.mp3" type="audio/mp3">
+        Seu navegador não suporta a tag de áudio.
+    </audio>
     <main>
         <div class="container" align="center">
             <img src="https://avatars.githubusercontent.com/u/130395809?v=4" width="65" height="65" alt="Haavertz" style="border: 2px solid #000; border-radius: 50%;">
@@ -45,5 +49,9 @@
             <a href="mailto:contato.gleisonmorais06@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
     </main>
+    <script>
+        var meuAudio = document.getElementById("MeuAudio");    
+        meuAudio.volume = 0.2;
+    </script>
 </body>
 </html>
