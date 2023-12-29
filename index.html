@@ -8,17 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
 </head>
 <body>
-    <audio autoplay loop>
-        <source id="MeuAudio" src="sound/lo_fi.mp3" type="audio/mp3">
-        Seu navegador não suporta a tag de áudio.
-    </audio>
     <main>
-        <div class="container" align="center">
-            <img src="https://avatars.githubusercontent.com/u/130395809?v=4" width="65" height="65" alt="Haavertz" style="border: 2px solid #000; border-radius: 50%;">
+        <div class="container">
+            <img src="https://avatars.githubusercontent.com/u/130395809?v=4" width="65" height="65" alt="Haavertz">
             <br>
-            <p>
-                Haavertz
-            </p>
+            <p>Haavertz</p>
             <hr>
         </div>
         <div class="music">
@@ -34,12 +28,15 @@
             <div class="bar"></div>
         </div>
         <div class="contact_feed">
+            <div style="text-align: center;">
+                <i style="color: #717171; font-size: 14px; padding-bottom: 15px; cursor: pointer;" class="fas fa-play" onclick="playAudio()"></i>
+            </div>
             <div class="games_feed">
                 <span style="color: lightseagreen;">gamer</span><span style="color: #cfcdcd;">;</span>
                 <span id="span_padding" style="color: #F9A532;">developer</span><span style="color: #cfcdcd;">;</span>
             </div>
             <p style="color: #ede5e5;">
-            <span style="color: #ac39ac; display: flex; align-items: center; justify-content: center;">community owner<span style="color: #cfcdcd;">;</span></span>
+                <span style="color: #ac39ac; display: flex; align-items: center; justify-content: center;">community owner<span style="color: #cfcdcd;">;</span></span>
             </p>
         </div>
         <div class="rede_sociais">
@@ -48,10 +45,16 @@
             <a href="https://www.instagram.com/gleissinn006/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="mailto:contato.gleisonmorais06@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
-    </main>
+        <audio id="MeuAudio" loop>
+            <source src="sound/lo_fi.mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </main>  
     <script>
-        var meuAudio = document.getElementById("MeuAudio");    
-        meuAudio.volume = 0.2;
+        function playAudio() {
+            var meuAudio = document.getElementById("MeuAudio");
+            meuAudio.play();
+        }
     </script>
 </body>
 </html>
