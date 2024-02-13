@@ -85,51 +85,51 @@ body {
 }
 
 .music .bar:nth-child(1) {
-    background-color: purple;
+    background-color: purple; /*#0A0D1A*/ 
     animation-delay: 1s;
 }
 
 .music .bar:nth-child(2) {
-    background-color: crimson;
+    background-color: crimson; /*#9122FF*/
     animation-delay: 0.8s;
 }
 
 .music .bar:nth-child(3) {
-    background-color: deeppink;
+    background-color: deeppink; /*#0859F5*/
     animation-delay: 0.6s;
 }
 
 .music .bar:nth-child(4) {
-    background-color: orange;
+    background-color: orange; /*#71F10D*/
     animation-delay: 0.4s;
 }
 
 .music .bar:nth-child(5) {
-    background-color: gold;
+    background-color: gold; /*gold*/
     animation-delay: 0.2s;
 }
 
 .music .bar:nth-child(6) {
-    background-color: gold;
+    background-color: gold;  /*gold*/
     animation-delay: 0.2s;
 }
 
 .music .bar:nth-child(7) {
-    background-color: orange;
+    background-color: orange; /*#71F10D*/
     animation-delay: 0.4s;
 }
 
 .music .bar:nth-child(8) {
-    background-color: deeppink;
+    background-color: deeppink; /*#0859F5*/
     animation-delay: 0.6s;
 }
 
 .music .bar:nth-child(9) {
-    background-color: crimson;
+    background-color: crimson; /*#9122FF*/
     animation-delay: 0.8s;
 }
 
 .music .bar:nth-child(10) {
-    background-color: purple;
+    background-color: purple; /*#0A0D1A*/
     animation-delay: 1s;
 }
